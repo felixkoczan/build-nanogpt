@@ -48,29 +48,6 @@ It follows the pedagogical style of Karpathy’s NanoGPT: minimal dependencies, 
 
 - CUDA- or MPS-enabled PyTorch build  
 
-## Installation
-
-1. Clone this repository:
-
-    ```bash
-    git clone https://github.com/yourusername/gpt2-from-scratch.git
-    cd gpt2-from-scratch
-    ```
-
-2. Create and activate a virtual environment:
-
-    ```bash
-    python -m venv venv
-    source venv/bin/activate        # Linux/macOS
-    venv\Scripts\activate           # Windows
-    ```
-
-3. Install dependencies:
-
-    ```bash
-    pip install torch tiktoken
-    ```
-
 ## Usage
 
 1. Prepare your training data as plain text in `input.txt`.  
