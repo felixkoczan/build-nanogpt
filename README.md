@@ -48,28 +48,6 @@ It follows the pedagogical style of Karpathy’s NanoGPT: minimal dependencies, 
 
 - CUDA- or MPS-enabled PyTorch build  
 
-## Usage
-
-1. Prepare your training data as plain text in `input.txt`.  
-2. Modify hyperparameters (batch size, learning rate, etc.) at the bottom of `gpt2_reimplementation.py`.  
-3. Run the training script:
-
-    ```bash
-    python gpt2_reimplementation.py
-    ```
-
-Training logs will print step, loss, learning rate, gradient norm, and tokens processed per second.
-
-## Project Structure
-
-```text
-├── train_gpt2.py              # Main implementation and training loop  
-├── play.ipynb                 # Testing and playing around with Hugging Face model  
-├── input.txt                  # Plain-text training corpus  
-├── README.md                  # This file  
-└── requirements.txt           # (Optional) pinned dependencies  
-```
-
 ## Configuration
 
 At the bottom of gpt2_reimplementation.py, you’ll find constants for:
